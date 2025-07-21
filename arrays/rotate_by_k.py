@@ -21,3 +21,8 @@ print(rotate_left([1,2,3,4,5,6,7],3))
 '''
 tc: O(k)+O(n-k)+O(k)=O(n+d)
 '''
+
+def otpimal(arr,k):
+    n=len(arr)
+    k=k%len(arr)
+    arr[:]=arr[len(n)-k:]+arr[:len(n)-k]

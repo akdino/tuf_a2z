@@ -26,3 +26,9 @@ def bs(arr,low,high,target):
         return bs(arr,low,high-1,target)
     
 print("5: ",bs(arr,0,8,5)," 8:",bs(arr,0,8,8)," 10: ",bs(arr,0,8,10))
+
+
+'''
+tc: O(log2n)
+if overflow might happen: use mid= low + (high-low)/2 =>cpp
+'''

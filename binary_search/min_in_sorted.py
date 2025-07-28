@@ -18,4 +18,5 @@ arr=[4 5 6 7 0 1 2]
 2 halves [4 5 6 7],[7 0 1 2]
 sorted : arr[low]<arr[mid] ie the smallest: arr[low] ie 4
 not sorted half : [0 1 2] => min:0
+number of times array of size n is rotated is index of min
 '''

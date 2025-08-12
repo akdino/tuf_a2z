@@ -1,4 +1,4 @@
-def numOfUnplacedFruits(self, fruits: List[int], baskets: List[int]) -> int:
+def numOfUnplacedFruits( fruits, baskets) -> int:
     n=len(fruits)
     flag=[0]*n
     placed=0

@@ -9,3 +9,7 @@ def missing_nums(n):
     for i in range(len(n)):
         r=r^n[i]^i+1
     return r
+
+'''
+1010
+0111'''

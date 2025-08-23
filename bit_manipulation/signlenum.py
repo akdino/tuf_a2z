@@ -1,6 +1,8 @@
+
+
 def singlenum1(n):
     x=0
-    for i in nums:
+    for i in n:
         x=x^i
     return x
 

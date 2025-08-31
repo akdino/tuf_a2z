@@ -7,5 +7,5 @@ def ps(i,lst,arr):
     lst.pop()
     ps(i+1,lst,arr)
 
-ps(0,[],[3,1,2])
+ps(0,[],[1,2,3 ])
 

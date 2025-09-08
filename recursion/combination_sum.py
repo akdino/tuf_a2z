@@ -8,7 +8,7 @@ def combsum(ind,target,lst):
         lst.pop()
     combsum(ind+1,target,lst)
 
-arr=[2,3,1,4,5,1,2,3]
+arr=[1,1,1,2,2]
 #combsum(0,5,[])
 
 n=len(arr)

@@ -277,3 +277,5 @@ where (SELECT COUNT(*) FROM seat) % 2 =1
 and id = (select max(id) from seat)) as t 
 where id is not null
 ORDER BY id;
+
+--40
